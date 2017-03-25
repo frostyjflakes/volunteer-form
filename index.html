@@ -18,7 +18,7 @@
       <p>Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
     </header>
     <fieldset>
-      <h2>Personal details</h2>
+      <legend>Personal details</legend>
       <div class="grid">
         <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
           <label for="name">Full name</label>
@@ -55,13 +55,16 @@
           <input type="email" id="email">
         </div>
         <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
-          <label for="number">Phone number (optional)</label>
+          <label for="number">Phone number <i>(optional)</i></label>
           <input type="tel" id="number">
         </div>
       </div>
     </fieldset>
+    <div>
+      <hr>
+    </div>
     <fieldset>
-      <h2>Address</h2>
+      <legend>Address</legend>
       <div class="grid">
         <div class="unit xs-1 s-1 m-1-2 l-1 xl-1">
           <label for="street">Street address</label>
@@ -96,8 +99,11 @@
         </div>
       </div>
     </fieldset>
+    <div>
+      <hr>
+    </div>
     <fieldset>
-      <h2>What activities are you interested in helping with?</h2>
+      <legend>What activities are you interested in helping with?</legend>
       <div class="grid">
         <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
           <div>
@@ -122,7 +128,7 @@
       </div>
     </fieldset>
     <fieldset>
-      <h2>Do you have any experience with the following?</h2>
+      <legend>Do you have any experience with the following?</legend>
       <div class="grid">
         <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
           <div>
@@ -150,35 +156,48 @@
         </div>
       </div>
     </fieldset>
+    <div>
+      <hr>
+    </div>
     <fieldset>
+      <legend>Do you have a valid driver’s license?</legend>
       <div>
-        <h2>Do you have a valid driver’s license?</h2>
         <input id="valid" type="radio">
         <label for="valid">Yes</label>
         <input id="not-valid" type="radio">
         <label for="not-valid">No</label>
       </div>
+    </fieldset>
+    <fieldset>
+      <legend>Do you have a pick-up truck you’d be willing to use?</legend>
       <div>
-        <h2>Do you have a pick-up truck you’d be willing to use?</h2>
         <input id="willing" type="radio">
         <label for="willing">Yes</label>
         <input id="not-willing" type="radio">
         <label for="not-willing">No</label>
       </div>
+    </fieldset>
+    <fieldset>
+      <legend>Do you have up-to-date first-aid certification?</legend>
       <div>
-        <h2>Do you have up-to-date first-aid certification?</h2>
         <input id="up-to-date" type="radio">
         <label for="up-to-date">Yes</label>
         <input id="not-up-to-date" type="radio">
         <label for="not-up-to-date">No</label>
       </div>
     </fieldset>
+    <div>
+      <hr>
+    </div>
     <fieldset>
+      <legend>Please let us know any comments or questions you may have.</legend>
       <div>
-        <h2>Please let us know any comments or questions you may have.</h2>
         <textarea name="comments" id="comments"></textarea>
       </div>
     </fieldset>
+    <div>
+      <hr>
+    </div>
     <fieldset>
       <div class="text-center">
         <button class="btn" type="submit">Apply</button>
