@@ -15,26 +15,26 @@
   <form>
     <header>
       <h1>Apply to be a tree planter</h1>
-      <p>Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
+      <p class="mega">Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
     </header>
     <fieldset>
-      <legend>Personal details</legend>
+      <legend class="giga">Personal details</legend>
       <div class="grid">
-        <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 gutter-1-2">
           <label for="name">Full name</label>
           <input name="name" id="name">
-          <p>Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
+          <p class="micro"><i>Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</i></p>
         </div>
-        <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 gutter-1-2">
           <label for="nickname">What should we call you?</label>
           <input name="nickname" id="nickname">
-          <p>What all your friends call you, e.g. “Liz”.</p>
+          <p class="micro"><i>What all your friends call you, e.g. “Liz”.</i></p>
         </div>
-        <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 gutter-1-2">
           <label for="date">Date of birth</label>
           <input name="date" id="date" type="date">
         </div>
-        <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 gutter-1-2">
           <label for="subject">T-shit size</label>
           <select name="subject" id="subject">
             <option>Select a t-shirt size</option>
@@ -50,12 +50,12 @@
             <option>Straight-cut: XL</option>
           </select>
         </div>
-        <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 gutter-1-2">
           <label for="email">Email</label>
           <input type="email" id="email">
         </div>
-        <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
-          <label for="number">Phone number <i>(optional)</i></label>
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 gutter-1-2">
+          <label for="number">Phone number <i class="optional">(optional)</i></label>
           <input type="tel" id="number">
         </div>
       </div>
@@ -64,7 +64,7 @@
       <hr>
     </div>
     <fieldset>
-      <legend>Address</legend>
+      <legend class="giga">Address</legend>
       <div class="grid">
         <div class="unit xs-1 s-1 m-1-2 l-1 xl-1">
           <label for="street">Street address</label>
@@ -103,7 +103,7 @@
       <hr>
     </div>
     <fieldset>
-      <legend>What activities are you interested in helping with?</legend>
+      <legend class="giga">What activities are you interested in helping with?</legend>
       <div class="grid">
         <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
           <div>
@@ -128,7 +128,7 @@
       </div>
     </fieldset>
     <fieldset>
-      <legend>Do you have any experience with the following?</legend>
+      <legend class="giga">Do you have any experience with the following?</legend>
       <div class="grid">
         <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
           <div>
@@ -160,7 +160,7 @@
       <hr>
     </div>
     <fieldset>
-      <legend>Do you have a valid driver’s license?</legend>
+      <legend class="giga">Do you have a valid driver’s license?</legend>
       <div>
         <input id="valid" type="radio">
         <label for="valid">Yes</label>
@@ -169,7 +169,7 @@
       </div>
     </fieldset>
     <fieldset>
-      <legend>Do you have a pick-up truck you’d be willing to use?</legend>
+      <legend class="giga">Do you have a pick-up truck you’d be willing to use?</legend>
       <div>
         <input id="willing" type="radio">
         <label for="willing">Yes</label>
@@ -178,7 +178,7 @@
       </div>
     </fieldset>
     <fieldset>
-      <legend>Do you have up-to-date first-aid certification?</legend>
+      <legend class="giga">Do you have up-to-date first-aid certification?</legend>
       <div>
         <input id="up-to-date" type="radio">
         <label for="up-to-date">Yes</label>
@@ -190,7 +190,7 @@
       <hr>
     </div>
     <fieldset>
-      <legend>Please let us know any comments or questions you may have.</legend>
+      <legend class="giga">Please let us know any comments or questions you may have.</legend>
       <div>
         <textarea name="comments" id="comments"></textarea>
       </div>
@@ -198,11 +198,9 @@
     <div>
       <hr>
     </div>
-    <fieldset>
-      <div class="text-center">
-        <button class="btn" type="submit">Apply</button>
-      </div>
-    </fieldset>
+    <div class="text-center">
+      <button class="btn" type="submit">Apply</button>
+    </div>
     <footer>
       <p>© Tree Hugger International Organization</p>
     </footer>
