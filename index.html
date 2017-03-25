@@ -18,21 +18,21 @@
     <fieldset>
       <legend>Personal details</legend>
         <div class="grid">
-          <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2">
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
             <label for="name">Full name</label>
             <input name="name" id="name">
             <p>Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
           </div>
-          <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2">
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
             <label for="nickname">What should we call you?</label>
             <input name="nickname" id="nickname">
             <p>What all your friends call you, e.g. “Liz”.</p>
           </div>
-          <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2">
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
             <label for="date">Date of birth</label>
             <input name="date" id="date" type="date">
           </div>
-          <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2">
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
             <label for="subject">T-shit size</label>
             <select name="subject" id="subject">
               <option>Select a t-shirt size</option>
@@ -48,11 +48,11 @@
               <option>Straight-cut: XL</option>
             </select>
           </div>
-          <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2">
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
             <label for="email">Email</label>
             <input name="email" id="email">
           </div>
-          <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2">
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
             <label for="number">Phone number (optional)</label>
             <input name="number" id="number">
           </div>
@@ -61,7 +61,7 @@
     <fieldset>
       <legend>Address</legend>
         <div class="grid">
-          <div class="unit xs-1 s-1 m-1 l-1 xl-1">
+          <div class="unit xs-1 s-1 m-1-2 l-1 xl-1">
             <label for="street">Street address</label>
             <textarea name="street" id="street"></textarea>
           </div>
@@ -69,7 +69,7 @@
             <label for="city">City</label>
             <input name="city" id="city">
           </div>
-          <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2">
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
             <label for="province">Province</label>
             <select name="province" id="province">
               <option value="">Select a province</option>
@@ -88,7 +88,7 @@
               <option>Yukon</option>
             </select>
           </div>
-          <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2">
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
             <label for="code">Postal code</label>
             <input name="code" id="code">
           </div>
@@ -97,7 +97,7 @@
     <fieldset>
       <legend>What activities are you interested in helping with?</legend>
         <div class="grid">
-          <div class="unit xs-1 s-1 m-1 l-1 xl-1">
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
             <div>
               <input id="digging" type="checkbox">
               <label for="digging">Digging holes</label>
@@ -120,7 +120,7 @@
         </div>
       <legend>Do you have any experience with the following?</legend>
         <div class="grid">
-          <div class="unit xs-1 s-1 m-1 l-1 xl-1">
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
             <div>
               <input id="shovels" type="checkbox">
               <label for="shovels">Shovels</label>
@@ -148,47 +148,39 @@
     </fieldset>
     <fieldset>
       <legend></legend>
-        <div class="grid">
-          <div class="unit xs-1 s-1 m-1 l-1 xl-1">
-            <div>
-              <label>Do you have a valid driver’s license?</label>
-              <input id="valid" type="radio">
-              <label for="valid">Yes</label>
-              <input id="not-valid" type="radio">
-              <label for="not-valid">No</label>
-            </div>
-            <div>
-              <label>Do you have a pick-up truck you’d be willing to use?</label>
-              <input id="willing" type="radio">
-              <label for="willing">Yes</label>
-              <input id="not-willing" type="radio">
-              <label for="not-willing">No</label>
-            </div>
-            <div>
-              <label for="">Do you have up-to-date first-aid certification?</label>
-              <input id="up-to-date" type="radio">
-              <label for="up-to-date">Yes</label>
-              <input id="not-up-to-date" type="radio">
-              <label for="not-up-to-date">No</label>
-            </div>
-          </div>
+        <div>
+          <label>Do you have a valid driver’s license?</label>
+          <input id="valid" type="radio">
+          <label for="valid">Yes</label>
+          <input id="not-valid" type="radio">
+          <label for="not-valid">No</label>
+        </div>
+        <div>
+          <label>Do you have a pick-up truck you’d be willing to use?</label>
+          <input id="willing" type="radio">
+          <label for="willing">Yes</label>
+          <input id="not-willing" type="radio">
+          <label for="not-willing">No</label>
+        </div>
+        <div>
+          <label for="">Do you have up-to-date first-aid certification?</label>
+          <input id="up-to-date" type="radio">
+          <label for="up-to-date">Yes</label>
+          <input id="not-up-to-date" type="radio">
+          <label for="not-up-to-date">No</label>
         </div>
     </fieldset>
     <fieldset>
       <legend></legend>
-        <div class="grid">
-          <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2">
-            <label for="">Please let us know any comments or questions you may have.</label>
-            <textarea name="" id="comments"></textarea>
-          </div>
+        <div>
+          <label for="">Please let us know any comments or questions you may have.</label>
+          <textarea name="" id="comments"></textarea>
         </div>
     </fieldset>
     <fieldset>
       <legend><legend>
-        <div class="grid">
-          <div class="unit xs-1 s-1 m-1 l-1 xl-1 text-center">
-            <button class="btn" type="submit">Apply</button>
-          </div>
+        <div class="text-center">
+          <button class="btn" type="submit">Apply</button>
         </div>
     </fieldset>
     <p>© Tree Hugger International Organization</p>
