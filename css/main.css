@@ -33,5 +33,15 @@ footer {
   color: #fff;
   background-color: #6e8c62;
   border: none;
-  padding: .5em;
+  padding: .75em;
+  padding-left: 3em;
+  padding-right: 3em;
+}
+
+fieldset {
+  border: none;
+}
+
+textarea {
+  min-height: 10em;
 }
